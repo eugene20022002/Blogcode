@@ -1,0 +1,2 @@
+//Checks if the Active Directory Recycle Bin is enabled
+Get-ADOptionalFeature -Filter 'name -like "Recycle Bin Feature"'
